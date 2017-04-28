@@ -308,8 +308,10 @@ p#cats a:hover { text-decoration: none; }
   padding: 1em;
   margin-bottom: 1em;
   margin-right: -43%;
-  width: 40%;
   vertical-align: top;
+  top: 0px;
+  position: sticky;
+  position: -webkit-sticky;
 }
 
 #content .toc ol, #content .toc ul {
